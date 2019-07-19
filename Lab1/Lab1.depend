@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1563074200 source:c:\users\irfan\onedrive\desktop\temp\de anza\summer 19\cis-22b\lab1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<sstream>
+	<algorithm>
+
