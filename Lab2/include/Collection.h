@@ -30,7 +30,7 @@ class Collection
         std::string defaultPath = "D:/Library/Books.txt";
         std::ifstream openBook (defaultPath.c_str()); // File handler
         std::string filePath;  // Represents user's inputted directory if defaultPath fails
-        bool check = false;  //Used to initiate a second file opening after user input has been accepted
+        bool check = false;  // Used to initiate a second file opening after user input has been accepted
 
                 while (!openBook.is_open()) {
 
@@ -40,7 +40,7 @@ class Collection
 
                 if (openBook.is_open())
                 {
-                    defaultPath = filePath; //Swaps the default path with the accepted user inputted path
+                    defaultPath = filePath; // Swaps the default path with the accepted user inputted path
                     check = true; // check changes to true to satisfy if statement
                     break; // Exits while loop to continue with file reading
                 }
