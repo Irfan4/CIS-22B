@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1563689621 source:c:\users\irfan\onedrive\desktop\temp\de anza\summer 19\cis-22b\lab2\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<sstream>
+	<algorithm>
+	"Collection.h"
+
+1563691160 c:\users\irfan\onedrive\desktop\temp\de anza\summer 19\cis-22b\lab2\include\collection.h
+	<iostream>
+	<fstream>
+	<vector>
+	<sstream>
+	<iomanip>
+
+1563504196 source:c:\users\irfan\onedrive\desktop\temp\de anza\summer 19\cis-22b\lab2\src\collection.cpp
+	"Collection.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<sstream>
+	<algorithm>
+
