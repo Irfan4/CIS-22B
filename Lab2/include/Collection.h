@@ -36,13 +36,13 @@ class Collection
 
                 std::cout << "Failed to open. Please enter a new path to find the file: " << std::endl;
                 getline (std::cin, filePath);
-                std::ifstream openBook (filePath.c_str()); //Attempts to open file with user inputted directory
+                std::ifstream openBook (filePath.c_str()); // Attempts to open file with user inputted directory
 
                 if (openBook.is_open())
                 {
                     defaultPath = filePath; //Swaps the default path with the accepted user inputted path
-                    check = true; //check changes to true to satisfy if statement
-                    break; //Exits while loop to continue with file reading
+                    check = true; // check changes to true to satisfy if statement
+                    break; // Exits while loop to continue with file reading
                 }
             }
 
